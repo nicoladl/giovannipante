@@ -1,0 +1,21 @@
+.section {
+  padding: 50px 0;
+  
+  @include mq($from: desktop) {
+    padding: 100px 0;
+  }
+
+  &__plain {
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+    @include mq($from: desktop) {
+      min-height: 100vh;
+    }
+  }
+
+  &--nobottom {
+    padding-bottom: 0;
+  }
+}
