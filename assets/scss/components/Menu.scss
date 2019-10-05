@@ -1,20 +1,16 @@
 .menu {
-  position: relative;
+  position: fixed;
+  bottom: 0;
+  transform: translateY(50%);
 
   &__item {
-    position: absolute;
-    transform: translateY(100vh);
-    transition: color 0.25s ease-out;
-
-    &.first {
-      height: 100vh;
-      display: flex;
-      align-items: center; 
-    }
+    opacity: 0;
+    transition: all 0.5s ease-out;
 
     &.target {
+      opacity: 1;
       color: $red !important;
-      transition: color 0.25s ease-out;
+      transition: all 0.5s ease-out;
     }
   }
 }

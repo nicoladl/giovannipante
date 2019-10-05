@@ -1,6 +1,6 @@
 .section {
   padding: 50px 0;
-  
+
   @include mq($from: desktop) {
     padding: 100px 0;
   }
@@ -8,10 +8,11 @@
   &__plain {
     padding: 0;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 
     @include mq($from: desktop) {
-      min-height: 100vh;
+      min-height: calc(100vh - #{$border}*2);
     }
   }
 

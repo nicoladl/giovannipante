@@ -1,10 +1,10 @@
-# nicoladelazzari
+# giovannipante
 
-> Personal website
+> Personal portfolio
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install
 

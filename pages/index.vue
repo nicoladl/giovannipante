@@ -13,9 +13,9 @@
 <script>
 import Intro from '../components/Intro'
 import Bio from '../components/Bio'
-import Experience from '../components/Experience'
+// import Experience from '../components/Experience'
 import Works from '../components/Works'
-import Awards from '../components/Awards'
+// import Awards from '../components/Awards'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 
@@ -23,9 +23,9 @@ export default {
   components: {
     Intro,
     Bio,
-    Experience,
+    // Experience,
     Works,
-    Awards,
+    // Awards,
     Contact,
     Footer
   },

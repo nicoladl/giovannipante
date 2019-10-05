@@ -1,15 +1,17 @@
 <template>
   <nav class="menu">
     <ul>
-      <li v-for="(item, index) in menu" :key="index" :class="[index === 0 ? 'menu__item first' : 'menu__item grey']" :data-id="index">
-        <div :class="index === 0 ? 'text--side' : 'text'" v-html="item.label"></div>
+      <!-- prettier-ignore -->
+      <li v-for="(item, index) in menu" :key="index" class="menu__item" :data-id="index">
+        <div class="text" v-html="item.label"></div>
       </li>
+      <!-- prettier-ignore -->
     </ul>
   </nav>
 </template>
 
 <script>
-import { TweenMax, TimelineMax, Power4 } from 'gsap'
+import { TweenMax, Power4 } from 'gsap'
 
 export default {
   data(context) {
@@ -18,6 +20,7 @@ export default {
     }
   },
   mounted() {
+    /* eslint-disable no-unused-vars */
     const options = {
       root: null,
       rootMargin: '0px',
@@ -38,6 +41,7 @@ export default {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           const el = entry.target
+          const menu = document.querySelector('.menu')
           const menuItem = menuItems[el.dataset.id]
           index = parseInt(el.dataset.id)
 
@@ -45,36 +49,8 @@ export default {
           if (target) {
             target.classList.remove('target')
           }
-
-          if (index !== 0) {
-            new TimelineMax()
-              .to(menuItem, 2, {
-                y: menuItem.offsetHeight * (index - 1),
-                ease: easeInOut,
-                onComplete: () => {
-                  menuItems[index].classList.add('target')
-                }
-              })
-              .to(
-                menuItems[0],
-                2,
-                {
-                  y: -window.innerHeight,
-                  ease: easeInOut
-                },
-                0
-              )
-          } else {
-            TweenMax.to(menuItem, 2, { y: 0 })
-            menuItems.forEach((item, index) => {
-              if (index !== 0) {
-                TweenMax.to(menuItems[menuItems.length - index], 2, {
-                  y: window.innerHeight + item.offsetHeight * (menuItems.length - index),
-                  ease: easeInOut
-                })
-              }
-            })
-          }
+          menuItems[index].classList.add('target')
+          TweenMax.to(menuItems, 0.5, { y: menuItem.offsetHeight * -index })
         }
       })
     }

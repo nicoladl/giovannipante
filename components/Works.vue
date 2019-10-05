@@ -1,16 +1,24 @@
 <template>
-  <section class="section" data-id="3">
+  <section class="section" data-id="1">
     <h2 class="text text--light pbottom reveal nodesktop">
       <span class="item">Projects</span>
     </h2>
+
+    <h2 class="title">
+      <span class="title__row reveal">
+        <span class="item">002/</span>
+      </span>
+      <span class="title__row reveal">
+        <span class="item">selected</span>
+      </span>
+      <span class="title__row reveal">
+        <span class="item">work.</span>
+      </span>
+    </h2>
+
     <ul class="list">
       <li v-for="(year, index) in works.years" :key="index" class="row">
-        <div class="sidebar sidebar--big nomobile">
-          <div class="text text--right text--light reveal">
-            <span class="item">{{ year.label }}</span>
-          </div>
-        </div>
-        <div class="content content--little">
+        <div class="content">
           <span class="text text--light text--small reveal nodesktop">
             <span class="item">{{ year.label }}</span>
           </span>

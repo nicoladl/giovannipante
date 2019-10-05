@@ -1,18 +1,16 @@
 <template>
-  <section class="section section__plain" data-id="0">
+  <section class="section section__plain">
     <h1 class="title">
       <span class="title__row reveal">
-        <span class="item">Nicola</span>
+        <span class="item">Giovanni</span>
       </span>
       <span class="title__row reveal">
-        <span class="item">De<span>Lazzari</span></span>
+        <span class="item">Pantè / 019</span>
       </span>
-      <span class="title__row grey reveal">
-        <span class="item">Swiss</span>
-      </span>
-      <span class="title__row grey reveal">
+      <span class="title__row reveal">
         <span class="item">Portfolio</span>
       </span>
     </h1>
+    <p>Hello, my name is Giovanni Panté and I am a Grapich Designer.</p>
   </section>
 </template>

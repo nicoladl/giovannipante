@@ -1,25 +1,14 @@
 export const state = () => ({
-  bio: 'Nicola is a frontend developer specialized in javascript development currently working in Lugano. Enthusiastic about all Vue.js ecosystem.',
+  bio:
+    'When I design a graphic design, the purpose that I constantly pursue is the attribution of a shape, of a configuration — through study, research, a design method — which is the most suitable to all kinds of work and artifacts. I deal with visual identity for public and private bodies, book design and communication for cultural events.',
   menu: [
     {
-      label: '2017-<br />-2011',
-      slug: 'intro'
-    },
-    {
-      label: 'About',
-      slug: 'about'
-    },
-    {
-      label: 'Bio',
+      label: 'About me',
       slug: 'cv'
     },
     {
       label: 'Works',
       slug: 'works'
-    },
-    {
-      label: 'Awards',
-      slug: 'awards'
     },
     {
       label: 'Contact',
@@ -70,42 +59,45 @@ export const state = () => ({
       }
     ]
   },
-  experiences: [
-    {
-      label: 'Octoplus Group',
-      dateStart: 'Present -',
-      dateEnd: '2017'
-    },
-    {
-      label: 'AKQA',
-      dateStart: '2017 -',
-      dateEnd: '2011'
-    }
-  ],
-  awards: [
-    {
-      title: 'CSS Design Awards',
-      lenght: 2,
-      type: 'WOTD'
-    },
-    {
-      title: 'Awwwards',
-      lenght: 2,
-      type: 'Mobile Excellence'
-    }
-  ],
   contacts: [
     {
-      label: 'Github',
-      href: 'https://github.com/nicoladl'
+      label: 'social',
+      content: [
+        {
+          label: 'Behance',
+          href: 'https://github.com/nicoladl'
+        },
+        {
+          label: 'LinkedIn',
+          href: 'https://www.linkedin.com/in/nicoladelazzari/'
+        },
+        {
+          label: 'Twitter',
+          href: 'https://twitter.com/nicoladelazzari'
+        },
+        {
+          label: 'Instagram',
+          href: 'https://twitter.com/nicoladelazzari'
+        }
+      ]
     },
     {
-      label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/nicoladelazzari/'
+      label: 'T.',
+      content: [
+        {
+          label: '123123123',
+          href: 'tel:123123123'
+        }
+      ]
     },
     {
-      label: 'Twitter',
-      href: 'https://twitter.com/nicoladelazzari'
+      label: 'e-mail',
+      content: [
+        {
+          label: 'hello@giova.com',
+          href: 'tel:hello@giova.com'
+        }
+      ]
     }
   ]
 })
