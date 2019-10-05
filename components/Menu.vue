@@ -41,7 +41,6 @@ export default {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           const el = entry.target
-          const menu = document.querySelector('.menu')
           const menuItem = menuItems[el.dataset.id]
           index = parseInt(el.dataset.id)
 
@@ -49,8 +48,13 @@ export default {
           if (target) {
             target.classList.remove('target')
           }
-          menuItems[index].classList.add('target')
-          TweenMax.to(menuItems, 0.5, { y: menuItem.offsetHeight * -index })
+
+          if (!isNaN(index)) {
+            console.log(menuItems[0].clientHeight)
+
+            menuItems[index].classList.add('target')
+            TweenMax.to(menuItems, 0.5, { y: menuItems[0].clientHeight * -index })
+          }
         }
       })
     }
