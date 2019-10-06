@@ -15,50 +15,38 @@ export const state = () => ({
       slug: 'contact'
     }
   ],
-  works: {
-    years: [
-      {
-        label: '2019',
-        content: [
-          {
-            label: 'Durisch+Nolli',
-            image: './images/durischnolli.jpg',
-            href: 'https://durischnolli.ch'
-          }
-        ]
-      },
-      {
-        label: '2018',
-        content: [
-          {
-            label: 'Mistretta Coiffure',
-            image: './images/mistretta.jpg',
-            href: 'https://mistretta.ch'
-          },
-          {
-            label: 'Axure Broker',
-            image: './images/axure.jpg',
-            href: 'https://axure-broker.ch'
-          },
-          {
-            label: 'Charly Zenger',
-            image: './images/charlyzenger.jpg',
-            href: 'https://charlyzenger.ch'
-          }
-        ]
-      },
-      {
-        label: '2017',
-        content: [
-          {
-            label: 'H-Farm',
-            image: './images/hfarm.jpg',
-            href: 'https://h-farm.com'
-          }
-        ]
-      }
-    ]
-  },
+  works: [
+    {
+      label: 'Durisch+Nolli',
+      image: './images/durischnolli.jpg',
+      href: 'https://durischnolli.ch'
+    },
+    {
+      label: 'Durisch+Nolli',
+      image: './images/durischnolli.jpg',
+      href: 'https://durischnolli.ch'
+    },
+    {
+      label: 'Durisch+Nolli',
+      image: './images/durischnolli.jpg',
+      href: 'https://durischnolli.ch'
+    },
+    {
+      label: 'Durisch+Nolli',
+      image: './images/durischnolli.jpg',
+      href: 'https://durischnolli.ch'
+    },
+    {
+      label: 'Durisch+Nolli',
+      image: './images/durischnolli.jpg',
+      href: 'https://durischnolli.ch'
+    },
+    {
+      label: 'Durisch+Nolli è il più bel progetto Svizzero e non sono neanche venuti alla festa.',
+      image: './images/durischnolli.jpg',
+      href: 'https://durischnolli.ch'
+    }
+  ],
   contacts: [
     {
       label: 'social',
