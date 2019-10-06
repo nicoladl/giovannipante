@@ -13,8 +13,8 @@
     </h2>
     <ul>
       <li v-for="(item, index) in contacts" :key="index" class="row">
-        <div class="sidebar sidebar--big nomobile">
-          <div class="text text--right text--light reveal">
+        <div class="sidebar nomobile">
+          <div class="text reveal">
             <span class="item">{{ item.label }}</span>
           </div>
         </div>

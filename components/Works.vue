@@ -19,9 +19,8 @@
     <ul class="list">
       <li v-for="(project, index) in works" :key="index" class="row">
         <div class="content">
-          <div class="project">
+          <div class="project js-image" :data-src="project.image" :data-alt="project.label">
             <Link :item="project" />
-            <img class="project__image nomobile" :src="project.image" :alt="project.label" />
           </div>
         </div>
       </li>

@@ -22,8 +22,8 @@ export const state = () => ({
       href: 'https://durischnolli.ch'
     },
     {
-      label: 'Durisch+Nolli',
-      image: './images/durischnolli.jpg',
+      label: 'Mistretta',
+      image: './images/mistretta.jpg',
       href: 'https://durischnolli.ch'
     },
     {
@@ -49,7 +49,7 @@ export const state = () => ({
   ],
   contacts: [
     {
-      label: 'social',
+      label: 'Social',
       content: [
         {
           label: 'Behance',

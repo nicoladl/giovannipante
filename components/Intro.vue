@@ -11,6 +11,14 @@
         <span class="item">Portfolio</span>
       </span>
     </h1>
-    <p>Hello, my name is Giovanni Panté and I am a Grapich Designer.</p>
+    <!-- prettier-ignore -->
+    <p>
+      Hello, my name is
+      <span
+        class="js-image js-upper"
+        :data-src="'https://source.unsplash.com/1080x1920'"
+        :data-alt="'Giovanni'"
+      >Giovanni Panté</span> and I am a Grapich Designer.
+    </p>
   </section>
 </template>
