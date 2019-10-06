@@ -2,9 +2,9 @@
   <div class="js-scroller">
     <Intro />
     <Bio />
-    <Experience />
+    <!-- <Experience /> -->
     <Works />
-    <Awards />
+    <!-- <Awards /> -->
     <Contact />
     <Footer />
   </div>

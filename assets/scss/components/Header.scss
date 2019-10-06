@@ -1,0 +1,24 @@
+header {
+  position: fixed;
+  top: $border;
+  width: calc(100vw - #{$border} * 2);
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
+
+  h2 {
+    display: flex;
+
+    span {
+      opacity: 0;
+    }
+  }
+
+  .date-time {
+    text-align: right;
+
+    div {
+      font-size: 0.5rem;
+    }
+  }
+}

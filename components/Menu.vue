@@ -50,8 +50,6 @@ export default {
           }
 
           if (!isNaN(index)) {
-            console.log(menuItems[0].clientHeight)
-
             menuItems[index].classList.add('target')
             TweenMax.to(menuItems, 0.5, { y: menuItems[0].clientHeight * -index })
           }
