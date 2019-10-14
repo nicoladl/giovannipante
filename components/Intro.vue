@@ -5,7 +5,7 @@
         <span class="item">Giovanni</span>
       </span>
       <span class="title__row reveal">
-        <span class="item">Pantè / 019</span>
+        <span class="item">Pantè/019</span>
       </span>
       <span class="title__row reveal">
         <span class="item">Portfolio</span>

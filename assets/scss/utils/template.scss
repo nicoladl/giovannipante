@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	font-family: HelveticaNowDisplay-Md, Arial;
+  font-family: HelveticaNowDisplay-Md, Arial;
   height: 100vh;
   overflow: hidden;
   color: $black;
@@ -44,7 +44,7 @@ a {
   width: 100%;
 
   .title & {
-    height: 0.91em;
+    height: 1em;
   }
 
   .item {
