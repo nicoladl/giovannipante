@@ -4,8 +4,8 @@ export default {
   mode: 'spa',
 
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
     title: pkg.title,
     meta: [
@@ -15,54 +15,50 @@ export default {
       { property: 'og:title', content: pkg.title },
       { property: 'og:description', content: pkg.description },
       { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: `http://nicoladelazzari.com` },
+      { property: 'og:url', content: `http://giovannipante.com` },
       { property: 'og:image', content: `/images/share.jpg` },
-      { property: 'twitter:card', content: `summary_large_image` },
-      { property: 'twitter:site', content: `@nicoladelazzari` },
-      { property: 'twitter:creator', content: `@nicoladelazzari` },
+      { property: 'twitter:card', content: `summary_large_image` }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: "stylesheet", href: 'MyFontsWebfontsKit.css' }
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, { rel: 'stylesheet', href: 'MyFontsWebfontsKit.css' }]
   },
 
   /*
-  ** Customize the progress-bar color
-  */
+   ** Customize the progress-bar color
+   */
   loading: { color: '#fff' },
 
   /*
+<<<<<<< HEAD
   ** Global CSS
   */
-  css: [
-    '@/assets/scss/main.scss'
-  ],
+  css: ['@/assets/scss/main.scss'],
 
   /*
-  ** Plugins to load before mounting the App
-  */
-  plugins: [
-    '~/plugins/scroll.js',
-    '~/plugins/reveal.js',
-    '~/plugins/charming.js',
-    { src: '~plugins/ga.js', ssr: false }
-  ],
+   ** Plugins to load before mounting the App
+   */
+  plugins: ['~/plugins/scroll.js', '~/plugins/reveal.js', '~/plugins/charming.js', { src: '~plugins/ga.js', ssr: false }],
+  /*
+   ** Global CSS
+   */
+  css: ['@/assets/scss/main.scss'],
 
   /*
-  ** Nuxt.js modules
-  */
-  modules: [
-    '@nuxtjs/pwa'
-  ],
+   ** Plugins to load before mounting the App
+   */
+  plugins: ['~/plugins/scroll.js', '~/plugins/reveal.js', { src: '~plugins/ga.js', ssr: false }],
 
   /*
-  ** Build configuration
-  */
+   ** Nuxt.js modules
+   */
+  modules: ['@nuxtjs/pwa'],
+
+  /*
+   ** Build configuration
+   */
   build: {
     /*
-    ** You can extend webpack config here
-    */
+     ** You can extend webpack config here
+     */
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
