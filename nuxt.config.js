@@ -35,9 +35,9 @@ export default {
   /*
   ** Global CSS
   */
- css: [
-  '@/assets/scss/main.scss'
-],
+  css: [
+    '@/assets/scss/main.scss'
+  ],
 
   /*
   ** Plugins to load before mounting the App
@@ -45,6 +45,7 @@ export default {
   plugins: [
     '~/plugins/scroll.js',
     '~/plugins/reveal.js',
+    '~/plugins/charming.js',
     { src: '~plugins/ga.js', ssr: false }
   ],
 
