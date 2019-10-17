@@ -11,7 +11,7 @@
         <span class="item">contact.</span>
       </span>
     </h2>
-    <ul>
+    <ul class="list">
       <li v-for="(item, index) in contacts" :key="index" class="row">
         <div class="sidebar nomobile">
           <div class="text reveal">

@@ -43,3 +43,9 @@
   font-size: 0.3rem;
   text-align: right;
 }
+
+.outline {
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(0,0,0,.75);
+}

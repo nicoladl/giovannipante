@@ -1,7 +1,7 @@
 <template>
   <a :href="item.href" class="text arrow" target="_blank">
     <span class="reveal">
-      <span class="item link">{{ item.label }}</span>
+      <span class="item link outline">{{ item.label }}</span>
     </span>
     <!-- <span class="arrow__icon nomobile"><Arrow /></span> -->
   </a>
