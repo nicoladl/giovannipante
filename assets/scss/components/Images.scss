@@ -2,15 +2,19 @@
   position: fixed;
   top: 50%;
   left: 15%;
-  transform: translateY(-50%);
   height: 70%;
   opacity: 0;
-  transition: opacity 0.5s ease-out;
+  transform: scaleX(1.1) translateX(-2vw) translateY(-50%);
+  transform-origin: right center;
+  transition: all 0.25s ease-in-out;
   
   &.show {
     opacity: 1;
-    transition: opacity 0.5s ease-out;
+    transform: scaleX(1) translateX(0) translateY(-50%);
+    transform-origin: right center;
+    transition: all 0.5s ease-in-out;
   }
+  
   &.upper {
     z-index: 999;
   }

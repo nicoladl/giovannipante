@@ -9,6 +9,9 @@ export default {
     const images = document.querySelectorAll('.js-image')
     images.forEach(image => {
       image.addEventListener('mouseenter', () => {
+        // clean everything
+        imagePlaceholder.src = ''
+        imagePlaceholder.alt = ''
         imagePlaceholder.src = image.dataset.src
         imagePlaceholder.alt = image.dataset.alt
         imagePlaceholder.classList.add('show')
@@ -21,8 +24,6 @@ export default {
       image.addEventListener('mouseleave', () => {
         imagePlaceholder.classList.remove('show')
         imagePlaceholder.classList.remove('upper')
-        imagePlaceholder.src = ''
-        imagePlaceholder.alt = ''
       })
     })
   }
