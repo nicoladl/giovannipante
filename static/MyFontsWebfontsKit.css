@@ -1,6 +1,6 @@
 /**
  * @license
- * MyFonts Webfont Build ID 3757976, 2019-05-09T14:43:13-0400
+ * MyFonts Webfont Build ID 3824692, 2019-10-16T17:28:29-0400
  * 
  * The fonts listed in this notice are subject to the End User License
  * Agreement(s) entered into by the website owner. All other parties are 
@@ -8,27 +8,21 @@
  * 
  * You may obtain a valid license at the URLs below.
  * 
- * Webfont: HelveticaNowDisplay-Th by Monotype 
- * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-thin/
- * 
- * Webfont: HelveticaNowDisplay-Md by Monotype 
+ * Webfont: HelveticaNowDisplay-Md by Monotype
  * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-medium/
- * 
- * 
- * License: https://www.myfonts.com/viewlicense?type=web&buildid=3757976
+ * Copyright: Copyright © 2019 Monotype Imaging Inc. All rights reserved.
  * Licensed pageviews: 250,000
- * Webfonts copyright: Copyright © 2019 Monotype Imaging Inc. All rights reserved.
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3824692
  * 
  * © 2019 MyFonts Inc
 */
 
 
 /* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/395798");
+@import url("//hello.myfonts.net/count/3a5c34");
 
   
-@font-face {font-family: 'HelveticaNowDisplay-Th';src: url('fonts/395798_0_0.eot');src: url('fonts/395798_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/395798_0_0.woff2') format('woff2'),url('fonts/395798_0_0.woff') format('woff'),url('fonts/395798_0_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'HelveticaNowDisplay-Md';src: url('fonts/395798_1_0.eot');src: url('fonts/395798_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/395798_1_0.woff2') format('woff2'),url('fonts/395798_1_0.woff') format('woff'),url('fonts/395798_1_0.ttf') format('truetype');}
+@font-face {font-family: 'HelveticaNowDisplay-Md';src: url('webfonts/3A5C34_0_0.eot');src: url('webfonts/3A5C34_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A5C34_0_0.woff2') format('woff2'),url('webfonts/3A5C34_0_0.woff') format('woff'),url('webfonts/3A5C34_0_0.ttf') format('truetype');}
  
