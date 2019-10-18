@@ -6,7 +6,7 @@
   "author": "Nicola De Lazzari",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "ENV=watch HOST=10.101.5.187 nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -17,8 +17,7 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.6.0",
-    "charming": "^3.0.1",
-    "cross-env": "^5.2.0",
+    "cross-env": "^5.2.1",
     "gsap": "^2.1.2",
     "mobile-detect": "^1.4.3",
     "normalize-wheel": "^1.0.1",
