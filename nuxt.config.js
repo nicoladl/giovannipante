@@ -28,16 +28,6 @@ export default {
   loading: { color: '#fff' },
 
   /*
-<<<<<<< HEAD
-  ** Global CSS
-  */
-  css: ['@/assets/scss/main.scss'],
-
-  /*
-   ** Plugins to load before mounting the App
-   */
-  plugins: ['~/plugins/scroll.js', '~/plugins/reveal.js', '~/plugins/charming.js', { src: '~plugins/ga.js', ssr: false }],
-  /*
    ** Global CSS
    */
   css: ['@/assets/scss/main.scss'],
@@ -45,7 +35,11 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/scroll.js', '~/plugins/reveal.js', { src: '~plugins/ga.js', ssr: false }],
+  plugins: ['~/plugins/scroll.js', '~/plugins/reveal.js', '~/plugins/lines.js', { src: '~plugins/ga.js', ssr: false }],
+  /*
+   ** Global CSS
+   */
+  css: ['@/assets/scss/main.scss'],
 
   /*
    ** Nuxt.js modules
