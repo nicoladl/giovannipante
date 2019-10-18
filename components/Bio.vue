@@ -10,7 +10,9 @@
           <span class="item">About me.</span>
         </span>
       </h2>
-      <div class="text js-split-text">{{ bio }}</div>
+      <div class="container">
+        <div class="text js-split-text">{{ bio }}</div>
+      </div>
     </div>
   </section>
 </template>

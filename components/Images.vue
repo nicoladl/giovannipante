@@ -1,5 +1,5 @@
 <template>
-  <img class="image" src alt />
+  <img class="image nomobile" src alt />
 </template>
 
 <script>

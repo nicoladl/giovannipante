@@ -35,6 +35,13 @@ a {
   padding-bottom: 0.25rem;
 }
 
+// container
+.container {
+  @include mq($from: desktop) {
+    width: 80%;
+  }
+}
+
 // reveal
 .reveal {
   height: 1.25em;

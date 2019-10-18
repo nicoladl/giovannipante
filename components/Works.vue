@@ -16,7 +16,7 @@
       </span>
     </h2>
 
-    <ul class="list">
+    <ul class="list list--small">
       <li v-for="(project, index) in works" :key="index" class="row">
         <div class="project js-image" :data-src="project.image" :data-alt="project.label">
           <Link :item="project" />
