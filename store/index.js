@@ -53,28 +53,19 @@ export const state = () => ({
       content: [
         {
           label: 'Behance',
-          href: 'https://github.com/nicoladl'
+          href: 'https://www.behance.net/pntgvnn933c8b'
         },
         {
           label: 'LinkedIn',
-          href: 'https://www.linkedin.com/in/nicoladelazzari/'
+          href: 'https://www.linkedin.com/in/giovanni-pant%C3%A9-996903189/'
         },
         {
           label: 'Twitter',
-          href: 'https://twitter.com/nicoladelazzari'
+          href: 'https://twitter.com/PanteGiovanni'
         },
         {
           label: 'Instagram',
-          href: 'https://twitter.com/nicoladelazzari'
-        }
-      ]
-    },
-    {
-      label: 'T.',
-      content: [
-        {
-          label: '123123123',
-          href: 'tel:123123123'
+          href: 'https://www.instagram.com/giovanni.pante/'
         }
       ]
     },
