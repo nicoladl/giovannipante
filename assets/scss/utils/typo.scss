@@ -9,6 +9,10 @@
   &--light {
     font-family: HelveticaNowDisplay-Th, Arial;
   }
+
+  &--bottom {
+    padding-bottom: 10vh;
+  }
 }
 
 .text {
@@ -47,5 +51,5 @@
 .outline {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px rgba(0,0,0,.75);
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.6);
 }
