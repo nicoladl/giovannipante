@@ -23,7 +23,9 @@ export default {
     TweenMax.fromTo(header, 2, { y: -100 }, { y: 0, ease: easeInOut })
 
     const addZero = i => {
-      i < 10 ? (i = `<span class="single">0</span><span class="single">${i}</span>`) : (i = `<span class="double">${i}</span>`)
+      i < 10
+        ? (i = `<span class="single">0</span><span class="single">${i}</span>`)
+        : (i = `<span class="double">${i}</span>`)
       return i
     }
 

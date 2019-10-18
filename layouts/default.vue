@@ -1,6 +1,7 @@
 <template>
   <div class="row">
     <Images />
+    <Caption />
     <Header />
     <div class="sidebar nomobile">
       <Menu />
@@ -15,12 +16,14 @@
 import Menu from '~/components/Menu'
 import Header from '~/components/Header'
 import Images from '~/components/Images'
+import Caption from '~/components/Caption'
 
 export default {
   components: {
     Menu,
     Header,
-    Images
+    Images,
+    Caption
   }
 }
 </script>

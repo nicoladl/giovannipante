@@ -18,31 +18,22 @@ export const state = () => ({
   works: [
     {
       label: 'Durisch+Nolli',
+      year: '018.',
+      category: ['Editorial design.', 'Visual identity.', 'Website.'],
       image: './images/durischnolli.jpg',
       href: 'https://durischnolli.ch'
     },
     {
       label: 'Mistretta',
+      year: '018.',
+      category: ['Editorial design.'],
       image: './images/mistretta.jpg',
       href: 'https://durischnolli.ch'
     },
     {
-      label: 'Durisch+Nolli',
-      image: './images/durischnolli.jpg',
-      href: 'https://durischnolli.ch'
-    },
-    {
-      label: 'Durisch+Nolli',
-      image: './images/durischnolli.jpg',
-      href: 'https://durischnolli.ch'
-    },
-    {
-      label: 'Durisch+Nolli',
-      image: './images/durischnolli.jpg',
-      href: 'https://durischnolli.ch'
-    },
-    {
       label: 'Durisch+Nolli è il più bel progetto Svizzero e non sono neanche venuti alla festa.',
+      year: '018.',
+      category: ['Editorial design.', 'Rebranding.'],
       image: './images/durischnolli.jpg',
       href: 'https://durischnolli.ch'
     }
