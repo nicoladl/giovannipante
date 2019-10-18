@@ -14,9 +14,20 @@
 </template>
 
 <script>
+import TweenMax from 'gsap'
+import { easeInOut } from '../assets/js/tween'
+
 export default {
   mounted() {
-    setInterval(() => {
+    const header = document.querySelector('header')
+    TweenMax.fromTo(header, 2, { y: -100 }, { y: 0, ease: easeInOut })
+
+    const addZero = i => {
+      i < 10 ? (i = `<span class="single">0</span><span class="single">${i}</span>`) : (i = `<span class="double">${i}</span>`)
+      return i
+    }
+
+    const setDateHours = () => {
       const date = new Date()
       const day = date.getDate()
       const month = date.getMonth() + 1
@@ -27,11 +38,12 @@ export default {
 
       document.querySelector('.date').innerHTML = `${addZero(day)}.${addZero(month)}.${addZero(year)}`
       document.querySelector('.time').innerHTML = `${addZero(hours)}.${addZero(minutes)}.${addZero(seconds)}`
-    }, 1000)
-    const addZero = i => {
-      i < 10 ? (i = `<span class="single">0</span><span class="single">${i}</span>`) : (i = `<span class="double">${i}</span>`)
-      return i
     }
+
+    setDateHours()
+    setInterval(() => {
+      setDateHours()
+    }, 1000)
   }
 }
 </script>

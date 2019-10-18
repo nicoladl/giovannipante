@@ -6,4 +6,4 @@ const tweenEnd = {
   ease: easeInOut
 }
 
-export { tweenEnd }
+export { tweenEnd, easeInOut }
