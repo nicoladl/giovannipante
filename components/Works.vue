@@ -4,7 +4,7 @@
       <span class="item">Projects</span>
     </h2>
 
-    <h2 class="title">
+    <h2 class="title title--bottom">
       <span class="title__row reveal">
         <span class="item">002/</span>
       </span>

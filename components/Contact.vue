@@ -3,7 +3,7 @@
     <h2 class="text text--light pbottom reveal nodesktop">
       <span class="item">Contacts</span>
     </h2>
-    <h2 class="title">
+    <h2 class="title title--bottom">
       <span class="title__row reveal">
         <span class="item">003/</span>
       </span>
@@ -14,9 +14,7 @@
     <ul class="list">
       <li v-for="(item, index) in contacts" :key="index" class="row">
         <div class="sidebar nomobile">
-          <div class="text reveal">
-            <span class="item">{{ item.label }}</span>
-          </div>
+          <div class="js-split-text">{{ item.label }}</div>
         </div>
         <div class="content content--little">
           <div v-for="(contact, index) in item.content" :key="index" class="social">

@@ -12,7 +12,7 @@
       </span>
     </h1>
     <!-- prettier-ignore -->
-    <p>
+    <p class="js-split-text">
       Hello, my name is
       <span
         class="js-image js-upper outline"
