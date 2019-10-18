@@ -19,6 +19,19 @@ header {
 
     div {
       font-size: 0.5rem;
+
+      span {
+        text-align: center;
+        display: inline-block;
+      }
+
+      .single {
+        min-width: 17px;
+      }
+
+      .double {
+        min-width: 35px;
+      }
     }
   }
 }

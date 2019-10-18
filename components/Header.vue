@@ -25,9 +25,13 @@ export default {
       const minutes = date.getMinutes()
       const seconds = date.getSeconds()
 
-      document.querySelector('.date').innerHTML = `${day}.${month}.${year}`
-      document.querySelector('.time').innerHTML = `${hours}.${minutes}.${seconds}`
+      document.querySelector('.date').innerHTML = `${addZero(day)}.${addZero(month)}.${addZero(year)}`
+      document.querySelector('.time').innerHTML = `${addZero(hours)}.${addZero(minutes)}.${addZero(seconds)}`
     }, 1000)
+    const addZero = i => {
+      i < 10 ? (i = `<span class="single">0</span><span class="single">${i}</span>`) : (i = `<span class="double">${i}</span>`)
+      return i
+    }
   }
 }
 </script>
