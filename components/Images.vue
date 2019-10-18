@@ -19,11 +19,23 @@ export default {
         if (image.classList.contains('js-upper')) {
           imagePlaceholder.classList.add('upper')
         }
+
+        if (image.classList.contains('js-upper')) {
+          image.classList.remove('outline')
+        } else {
+          image.querySelector('span.outline').classList.remove('outline')
+        }
       })
 
       image.addEventListener('mouseleave', () => {
         imagePlaceholder.classList.remove('show')
         imagePlaceholder.classList.remove('upper')
+
+        if (image.classList.contains('js-upper')) {
+          image.classList.add('outline')
+        } else {
+          image.querySelector('span').classList.add('outline')
+        }
       })
     })
   }
