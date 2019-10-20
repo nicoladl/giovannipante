@@ -17,7 +17,9 @@ export default {
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: `http://giovannipante.com` },
       { property: 'og:image', content: `/images/share.jpg` },
-      { property: 'twitter:card', content: `summary_large_image` }
+      { property: 'twitter:card', content: `summary_large_image` },
+      { property: 'twitter:site', content: `@pantegiovanni` },
+      { property: 'twitter:creator', content: `@pantegiovanni` },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, { rel: 'stylesheet', href: 'MyFontsWebfontsKit.css' }]
   },
