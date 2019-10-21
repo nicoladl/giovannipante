@@ -53,7 +53,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa'],
+  modules: ['@nuxtjs/pwa', 'nuxt-basic-auth-module'],
 
   /*
    ** Build configuration
@@ -73,6 +73,12 @@ export default {
         })
       }
     }
+  },
+
+  basic: {
+    name: 'giovanni',
+    pass: 'g10v4nn1',
+    enabled: process.env.DEPLOY_ENV === 'true' // require boolean value(nullable)
   },
 
   ...routerBase

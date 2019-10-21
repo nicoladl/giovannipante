@@ -22,6 +22,7 @@
     "mobile-detect": "^1.4.3",
     "normalize-wheel": "^1.0.1",
     "nuxt": "^2.4.0",
+    "nuxt-basic-auth-module": "^1.2.0",
     "sass-mq": "^5.0.0"
   },
   "devDependencies": {
