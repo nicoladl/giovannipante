@@ -17,7 +17,7 @@
         Hello, my name is
         <span
           class="js-image js-upper outline"
-          :data-src="'/images/giovannipante.jpg'"
+          :data-src="'./images/giovannipante.jpg'"
           :data-alt="'Giovanni'"
         >Giovanni Panté</span> and I am a Grapich Designer.
       </p>
