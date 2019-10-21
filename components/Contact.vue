@@ -1,5 +1,5 @@
 <template>
-  <section class="section" data-id="2">
+  <section class="section js-contacts" data-id="2">
     <h2 class="text text--light pbottom reveal nodesktop">
       <span class="item">Contacts</span>
     </h2>

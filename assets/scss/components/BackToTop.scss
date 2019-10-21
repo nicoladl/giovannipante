@@ -1,0 +1,21 @@
+.back-to-top {
+  position: fixed;
+  z-index: 999;
+  bottom: $border;
+  right: $border;
+  width: 1rem;
+  opacity: 0;
+
+  path {
+    fill: transparent;
+    stroke: #9a9a9a;
+    transition: fill 0.25s ease-in-out;
+  }
+
+  &:hover {
+    path {
+      fill: $black;
+      transition: fill 0.5s ease-in-out;
+    }
+  }
+}
