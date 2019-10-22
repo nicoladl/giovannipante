@@ -1,0 +1,21 @@
+* {
+  cursor: none;
+}
+
+.mouse {
+  position: fixed;
+	z-index: 9999;
+	top: calc(#{$border} * -1);
+  left: -$border;
+  width: calc(#{$border} * 2);
+	cursor: none;
+	user-select: none;
+	pointer-events: none;
+	will-change: transform;
+  transform: translate(var(--mouse-x), var(--mouse-y)) rotate(45deg);
+  transition: transform 0.05s ease-out;
+
+  @include mq($until: desktop) {
+    display: none;
+  }
+}

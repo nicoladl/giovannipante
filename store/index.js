@@ -17,25 +17,11 @@ export const state = () => ({
   ],
   works: [
     {
-      label: 'Durisch+Nolli',
-      year: '018.',
-      category: ['Editorial design.', 'Visual identity.', 'Website.'],
-      image: './images/durischnolli.jpg',
-      href: 'https://durischnolli.ch'
-    },
-    {
-      label: 'Mistretta',
-      year: '018.',
-      category: ['Editorial design.'],
-      image: './images/mistretta.jpg',
-      href: 'https://durischnolli.ch'
-    },
-    {
-      label: 'Durisch+Nolli è il più bel progetto Svizzero e non sono neanche venuti alla festa.',
-      year: '018.',
-      category: ['Editorial design.', 'Rebranding.'],
-      image: './images/durischnolli.jpg',
-      href: 'https://durischnolli.ch'
+      label: 'Poster collection',
+      year: '019.',
+      category: ['Poster design.'],
+      image: './images/poster-collection.jpg',
+      href: 'https://www.behance.net/gallery/87107847/Poster-collection'
     }
   ],
   contacts: [
@@ -61,7 +47,7 @@ export const state = () => ({
       ]
     },
     {
-      label: 'E-<br>mail',
+      label: 'E—<br>mail',
       content: [
         {
           label: 'hello<br>@giova.com',

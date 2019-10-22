@@ -4,6 +4,7 @@
     <Caption />
     <Header />
     <BackToTop />
+    <Mouse />
     <div class="sidebar nomobile">
       <Menu />
     </div>
@@ -19,6 +20,7 @@ import Header from '~/components/Header'
 import Images from '~/components/Images'
 import Caption from '~/components/Caption'
 import BackToTop from '~/components/BackToTop'
+import Mouse from '~/components/Mouse'
 
 export default {
   components: {
@@ -26,7 +28,14 @@ export default {
     Header,
     Images,
     Caption,
-    BackToTop
+    BackToTop,
+    Mouse
+  },
+  mounted() {
+    document.addEventListener('mousemove', e => {
+      document.documentElement.style.setProperty('--mouse-x', e.clientX + 'px')
+      document.documentElement.style.setProperty('--mouse-y', e.clientY + 'px')
+    })
   }
 }
 </script>
