@@ -61,11 +61,11 @@ export const state = () => ({
       ]
     },
     {
-      label: 'e-mail',
+      label: 'E-<br>mail',
       content: [
         {
-          label: 'hello@giova.com',
-          href: 'tel:hello@giova.com'
+          label: 'hello<br>@giova.com',
+          href: 'mailto:hello@giova.com'
         }
       ]
     }

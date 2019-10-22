@@ -1,5 +1,5 @@
 <template>
-  <section class="footer">
+  <section class="footer" data-id="2">
     <ul class="list">
       <li class="row">
         <div class="sidebar nomobile">
@@ -7,7 +7,12 @@
         </div>
         <div class="content content--little">
           <div class="social">
-            <p class="footer">©2019 Giovanni Panté / Develop, Nicola De Lazzari</p>
+            <p class="text">
+              ©2019 Develop /
+              <a href="http://nicoladelazzari.com" target="_blank" alt="Nicola De Lazzari" class="outline hover"
+                >Nicola De Lazzari</a
+              >
+            </p>
           </div>
         </div>
       </li>
