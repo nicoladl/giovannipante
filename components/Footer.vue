@@ -3,12 +3,12 @@
     <ul class="list">
       <li class="row">
         <div class="sidebar nomobile">
-          <div class="js-split-text"></div>
+          <div class="text js-split-text">©2019</div>
         </div>
         <div class="content content--little">
           <div class="social">
             <p class="text">
-              ©2019 Develop /
+              Develop /
               <a href="http://nicoladelazzari.com" target="_blank" alt="Nicola De Lazzari" class="outline hover"
                 >Nicola De Lazzari</a
               >

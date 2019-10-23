@@ -12,7 +12,7 @@
         <span class="item">selected</span>
       </span>
       <span class="title__row reveal">
-        <span class="item">work.</span>
+        <span class="item">works.</span>
       </span>
     </h2>
 

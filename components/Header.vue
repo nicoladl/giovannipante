@@ -38,7 +38,7 @@ export default {
       const minutes = date.getMinutes()
       const seconds = date.getSeconds()
 
-      document.querySelector('.date').innerHTML = `${addZero(day)}:${addZero(month)}:${addZero(year)}`
+      document.querySelector('.date').innerHTML = `${addZero(day)}.${addZero(month)}.${addZero(year)}`
       document.querySelector('.time').innerHTML = `${addZero(hours)}:${addZero(minutes)}:${addZero(seconds)}`
     }
 

@@ -7,7 +7,7 @@ export const state = () => ({
       slug: 'cv'
     },
     {
-      label: 'W<span>o</span>rk',
+      label: 'W<span>o</span>rks',
       slug: 'work'
     },
     {
