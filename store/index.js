@@ -13,6 +13,10 @@ export const state = () => ({
     {
       label: 'C<span>o</span>nt<span>a</span>ct',
       slug: 'contact'
+    },
+    {
+      label: '©2019',
+      slug: 'footer'
     }
   ],
   works: [

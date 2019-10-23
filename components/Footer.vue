@@ -1,9 +1,9 @@
 <template>
-  <section class="footer" data-id="2">
+  <section class="footer" data-id="3">
     <ul class="list">
       <li class="row">
         <div class="sidebar nomobile">
-          <div class="text js-split-text">©2019</div>
+          <div class="text js-split-text"></div>
         </div>
         <div class="content content--little">
           <div class="social">
