@@ -2,6 +2,13 @@ html {
   font-size: 54px;
 }
 
+* {
+  &::selection {
+		background: $red;
+		color: $white;
+	}
+}
+
 body {
   font-family: HelveticaNowDisplay-Md, Arial;
   height: 100vh;
@@ -44,11 +51,12 @@ a {
 
 // reveal
 .reveal {
-  height: 1.25em;
+  height: 1.2em;
   overflow: hidden;
   position: relative;
   display: flex;
   width: 100%;
+  visibility: hidden;
 
   .title & {
     height: 1em;
@@ -58,8 +66,12 @@ a {
     @include mq($from: desktop) {
       width: 100%;
       position: absolute;
-      transform: translateY(200px);
+      transform: translateY(210px);
     }
+  }
+
+  &.revealed {
+    visibility: visible;
   }
 }
 

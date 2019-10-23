@@ -3,8 +3,8 @@
     <Images />
     <Caption />
     <Header />
-    <BackToTop />
     <Mouse />
+    <BackToTop />
     <div class="sidebar nomobile">
       <Menu />
     </div>
