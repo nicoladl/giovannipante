@@ -1,6 +1,6 @@
 export const state = () => ({
   bio:
-    'When I design a graphic design, the purpose that I constantly pursue is the attribution of a shape, of a configuration — through study, research, a design method — which is the most suitable to all kinds of work and artifacts. I deal with visual identity for public and private bodies, book design and communication for cultural events.',
+    'When i develop a graphic design, I am pursuing the objective of attributing a shape or a configuration - through study, research, a design method - which is the most suitable to all kinds of projects and artifacts. I focus on visual communication for private and public organizations: from brand and corporate design to publishing & print media, visual identities for exhibitions and cultural events.',
   menu: [
     {
       label: '<span>A</span>b<span></span><span>o</span><span>u</span>t m<span>e</span>',
