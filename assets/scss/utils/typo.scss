@@ -16,8 +16,8 @@
 }
 
 .text {
-  font-size: 1.2rem;
-  line-height: 1.25rem;
+  font-size: 4vw;
+  line-height: 2rem;
 
   @include mq($until: desktop) {
     font-size: 0.5rem;

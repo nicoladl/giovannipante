@@ -3,7 +3,7 @@
     <ul>
       <!-- prettier-ignore -->
       <li v-for="(item, index) in menu" :key="index" class="menu__item" :data-id="index">
-        <div class="text" v-html="item.label"></div>
+        <div v-html="item.label"></div>
       </li>
       <!-- prettier-ignore -->
     </ul>

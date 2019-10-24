@@ -26,6 +26,27 @@ export const state = () => ({
       category: ['Poster design.'],
       image: './images/poster-collection.jpg',
       href: 'https://www.behance.net/gallery/87107847/Poster-collection'
+    },
+    {
+      label: 'Poster collection',
+      year: '019.',
+      category: ['Poster design.'],
+      image: './images/poster-collection.jpg',
+      href: 'https://www.behance.net/gallery/87107847/Poster-collection'
+    },
+    {
+      label: 'Poster collection',
+      year: '019.',
+      category: ['Poster design.'],
+      image: './images/poster-collection.jpg',
+      href: 'https://www.behance.net/gallery/87107847/Poster-collection'
+    },
+    {
+      label: 'Poster collection',
+      year: '019.',
+      category: ['Poster design.'],
+      image: './images/poster-collection.jpg',
+      href: 'https://www.behance.net/gallery/87107847/Poster-collection'
     }
   ],
   contacts: [
