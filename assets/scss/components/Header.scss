@@ -7,7 +7,7 @@ header {
   z-index: 999;
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 3.8vw;
     display: flex;
 
     span {
@@ -16,10 +16,12 @@ header {
   }
 
   .date-time {
+    font-family: HelveticaNowDisplay-Md, Arial;
+    font-weight: 500;
     text-align: right;
 
     div {
-      font-size: 0.7rem;
+      font-size: 1.7vw;
 
       span {
         text-align: center;

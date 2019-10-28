@@ -51,7 +51,7 @@ a {
 
 // reveal
 .reveal {
-  height: 1.2em;
+  height: 5.65vw;
   overflow: hidden;
   position: relative;
   display: flex;
@@ -59,11 +59,12 @@ a {
   visibility: hidden;
 
   .title & {
-    height: 1em;
+    height: 16vw;
   }
 
   .item {
     @include mq($from: desktop) {
+      line-height: 1em;
       width: 100%;
       position: absolute;
       transform: translateY(210px);
