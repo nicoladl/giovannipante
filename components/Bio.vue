@@ -11,7 +11,7 @@
         </span>
       </h2>
       <div class="container">
-        <div class="text js-split-text">{{ bio }}</div>
+        <div class="text js-split-text" v-html="bio"></div>
       </div>
     </div>
   </section>

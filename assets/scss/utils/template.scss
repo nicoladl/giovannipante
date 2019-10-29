@@ -64,7 +64,7 @@ a {
 
   .item {
     @include mq($from: desktop) {
-      line-height: 1em;
+      line-height: 1.25em;
       width: 100%;
       position: absolute;
       transform: translateY(210px);

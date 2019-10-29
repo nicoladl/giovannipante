@@ -14,10 +14,10 @@
     <ul class="list">
       <li v-for="(item, index) in contacts" :key="index" class="row">
         <div class="sidebar nomobile">
-          <div class="text js-split-text" v-html="item.label"></div>
+          <div class="text special js-split-text" v-html="item.label"></div>
         </div>
         <div class="content content--little">
-          <div v-for="(contact, index2) in item.content" :key="index2" class="social">
+          <div v-for="(contact, index2) in item.content" :key="index2" class="social special">
             <Link :item="contact" />
           </div>
         </div>

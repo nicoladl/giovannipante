@@ -7,11 +7,9 @@
         </div>
         <div class="content content--little">
           <div class="social">
-            <p class="text">
-              <a href="http://nicoladelazzari.com" target="_blank" alt="Nicola De Lazzari" class="outline hover"
-                >Nicola De Lazzari</a
-              >
-            </p>
+            <a href="http://nicoladelazzari.com" target="_blank" alt="Nicola De Lazzari" class="text">
+              <span class="js-split-text link outline hover" v-html="'Nicola De Lazzari'"></span>
+            </a>
           </div>
         </div>
       </li>
