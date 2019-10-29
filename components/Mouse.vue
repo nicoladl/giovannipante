@@ -1,6 +1,6 @@
 <template>
   <div class="mouse">
-    <svg class="mouse__item" x="0px" y="0px" viewBox="0 0 43 61.5">
+    <svg class="mouse__item" x="0px" y="0px" viewBox="0 0 140 135">
       <style type="text/css">
         .st0 {
           fill: #ff5025;
@@ -9,8 +9,8 @@
       <g>
         <path
           class="st0"
-          d="M1.5,25.6v1.9l9.1-6.9c0.4-0.3,3.6-2.8,9.7-7.5v37.7h1.5V13.1c2.8,2.1,6,4.7,9.7,7.5l9.1,6.9v-1.9L21,10.7
-		L1.5,25.6z"
+          d="M13.4,9.2h115v113l-8.2,7.5V71.4c0-22.6,0-38.9,0.2-48.7L11.8,129.9l-5.7-6.1L114.6,16.7
+		c-9.8,0.2-25.9,0.2-48.5,0.2H6.1L13.4,9.2z"
         />
       </g>
     </svg>

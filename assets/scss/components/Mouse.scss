@@ -12,7 +12,7 @@
 	user-select: none;
 	pointer-events: none;
 	will-change: transform;
-  transform: translate(var(--mouse-x), var(--mouse-y)) rotate(45deg);
+  transform: translate(var(--mouse-x), var(--mouse-y));
   transition: transform 0.05s ease-out;
 
   @include mq($until: desktop) {
