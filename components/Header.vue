@@ -3,10 +3,9 @@
     <h2>
       P
       <span>A</span>NT
-      <span>E</span>
     </h2>
 
-    <div class="date-time">
+    <div class="date-time nomobile">
       <div class="date"></div>
       <div class="time"></div>
     </div>

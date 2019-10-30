@@ -27,6 +27,7 @@ export default {
       { property: 'twitter:card', content: `summary_large_image` },
       { property: 'twitter:site', content: `@pantegiovanni` },
       { property: 'twitter:creator', content: `@pantegiovanni` },
+      { name: 'theme-color', content: '#000000' }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, { rel: 'stylesheet', href: 'MyFontsWebfontsKit.css' }]
   },

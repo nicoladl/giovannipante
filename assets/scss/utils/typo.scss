@@ -12,6 +12,18 @@
 
   &--bottom {
     padding-bottom: 10vh;
+
+    @include mq($until: desktop) {
+      padding-bottom: 3vh;
+    }
+  }
+
+  &--bottom-mobile {
+    padding-bottom: 10vh;
+
+    @include mq($until: desktop) {
+      padding-bottom: 3vh;
+    }
   }
 }
 
@@ -35,11 +47,14 @@
   &--small {
     font-size: 0.3rem;
     line-height: 1em;
-    // padding-top: 0.25rem;
   }
 
   &--side {
     font-size: 0.4rem;
+  }
+
+  &.grey {
+    color: $grey;
   }
 }
 
@@ -49,14 +64,17 @@
 }
 
 .outline {
-  -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 0.75px rgba(0, 0, 0, 0.6);
 
-  &.hover {
-    &:hover {
-      -webkit-text-fill-color: $black;
-      transition: all 0.5s ease-in-out;
+  @include mq($from: desktop) {
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.75px rgba(0, 0, 0, 0.6);
+
+    &.hover {
+      &:hover {
+        -webkit-text-fill-color: $black;
+        transition: all 0.5s ease-in-out;
+      }
     }
   }
 }
@@ -64,5 +82,9 @@
 .special {
   .item {
     line-height: 1rem;
+
+    @include mq($until: desktop) {
+      line-height: 0.8rem;
+    }
   }
 }

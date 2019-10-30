@@ -1,8 +1,5 @@
 <template>
   <section class="section js-contacts" data-id="2">
-    <h2 class="text text--light pbottom reveal nodesktop">
-      <span class="item">Contacts</span>
-    </h2>
     <h2 class="title title--bottom">
       <span class="title__row reveal">
         <span class="item">003/</span>
@@ -22,6 +19,13 @@
           </div>
         </div>
       </li>
+      <li class="row nodesktop">
+        <div class="content content--little">
+          <div class="social special">
+            <span class="js-split-text text link outline hover">{{ menu[3].label }}</span>
+          </div>
+        </div>
+      </li>
     </ul>
   </section>
 </template>
@@ -35,7 +39,8 @@ export default {
   },
   data(context) {
     return {
-      contacts: context.$store.state.contacts
+      contacts: context.$store.state.contacts,
+      menu: context.$store.state.menu
     }
   }
 }

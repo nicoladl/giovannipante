@@ -2,6 +2,10 @@
   width: 100%;
   display: flex;
 
+   @include mq($until: desktop) {
+     flex-wrap: wrap;
+   }
+
   .sidebar {
     width: 25%;
     box-sizing: border-box;

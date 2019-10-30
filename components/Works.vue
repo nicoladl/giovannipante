@@ -1,9 +1,5 @@
 <template>
   <section class="section" data-id="1">
-    <h2 class="text text--light pbottom reveal nodesktop">
-      <span class="item">Projects</span>
-    </h2>
-
     <h2 class="title title--bottom">
       <span class="title__row reveal">
         <span class="item">002/</span>
@@ -17,9 +13,9 @@
     </h2>
 
     <ul class="list list--small">
-      <li v-for="(project, index) in works" :key="index" class="row">
+      <li v-for="(project, index) in works" :key="index" class="row project">
         <div
-          class="project js-image js-caption"
+          class="js-image js-caption"
           :data-src="project.image"
           :data-alt="project.label"
           :data-category="project.category"
@@ -27,6 +23,7 @@
         >
           <Link :item="project" />
         </div>
+        <img :src="project.image" :alt="project.label" class="width100 nodesktop" />
       </li>
     </ul>
   </section>

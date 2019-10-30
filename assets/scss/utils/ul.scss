@@ -13,5 +13,13 @@
 
   &--small {
     width: 75%;
+
+    @include mq($until: desktop) {
+      width: 100%;
+    }
+  }
+
+  .project {
+    padding-bottom: 7vh;
   }
 }

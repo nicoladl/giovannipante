@@ -1,6 +1,6 @@
 <template>
   <section class="section section__plain">
-    <h1 class="title">
+    <h1 class="title title--bottom-mobile">
       <span class="title__row reveal">
         <span class="item">Giovanni</span>
       </span>

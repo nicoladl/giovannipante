@@ -6,12 +6,23 @@ header {
   justify-content: space-between;
   z-index: 999;
 
+  @include mq($until: desktop) {
+    top: calc(#{$border} / 2);
+    width: calc(100vw - #{$border});
+  }
+
   h2 {
     font-size: 3.8vw;
     display: flex;
 
     span {
       opacity: 0;
+    }
+
+    @include mq($until: desktop) {
+      font-size: 13vw;
+      position: absolute;
+      right: 0;
     }
   }
 

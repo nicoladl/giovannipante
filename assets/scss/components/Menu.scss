@@ -2,8 +2,9 @@
   text-transform: uppercase;
   position: fixed;
   left: $border;
-  bottom: -$border * 3;
-  transform: translateY(50%);
+  bottom: 0;
+  bottom: -3.5vw * 3;
+  // transform: translateY(50%);
 
   &__item {
     font-size: 3.8vw;

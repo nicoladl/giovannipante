@@ -14,6 +14,10 @@
     @include mq($from: desktop) {
       min-height: calc(100vh - #{$border}*2);
     }
+
+    @include mq($until: desktop) {
+      padding-top: 10vh;
+    }
   }
 
   &--nobottom {
