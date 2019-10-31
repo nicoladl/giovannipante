@@ -102,4 +102,8 @@ Vue.prototype.$scroll = () => {
       scrolled = scroller.targetHeight
     }
   }
+
+  document.querySelector('.back-to-top').addEventListener('click', () => {
+    scroller.y = 0
+  })
 }
