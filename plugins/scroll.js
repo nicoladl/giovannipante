@@ -17,8 +17,8 @@ Vue.prototype.$scroll = () => {
 
   // window height
   let wh = 0
-  const scrollSpeed = 2
-  const mobileScrollRatio = 4
+  const scrollSpeed = 1
+  const mobileScrollRatio = 2
 
   let scrolled = 0
   let pixelY = 0
