@@ -24,8 +24,8 @@ export const state = () => ({
       label: 'Aprilteatro',
       year: '019.',
       category: ['Visual identity.', 'Poster design.'],
-      image: './images/fabula.jpg',
-      href: 'DEVO INSERIRE IL PROGETTO'
+      image: './images/aprilteatro.jpg',
+      href: '#'
     },
     {
       label: 'Fabula',
@@ -46,14 +46,14 @@ export const state = () => ({
       year: '019.',
       category: ['Visual identity.', 'Logo design.'],
       image: './images/LOGOFOLIO.jpg',
-      href: 'https://www.behance.net/gallery/87107847/Poster-collection'
+      href: '#'
     },
     {
       label: 'Numeri, Lettere, Segni',
       year: '018.',
       category: ['Editorial design.'],
       image: './images/poster-collection.jpg',
-      href: 'DEVO INSERIRE IL PROGETTO'
+      href: '#'
     },
     {
       label: 'Poster collection',
@@ -74,7 +74,7 @@ export const state = () => ({
       year: '018.',
       category: ['Visual identity.', 'Poster design.', 'Editorial design.'],
       image: './images/TRA-SOGNO.jpg',
-      href: 'https://www.behance.net/gallery/87242415/San-Martino-Fest'
+      href: 'https://www.behance.net/gallery/87348213/Tra-sogno-e-realta'
     }
   ],
   contacts: [
