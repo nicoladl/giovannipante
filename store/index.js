@@ -25,7 +25,7 @@ export const state = () => ({
       year: '019.',
       category: ['Visual identity.', 'Poster design.'],
       image: './images/aprilteatro.jpg',
-      href: '#'
+      href: 'https://www.behance.net/gallery/87482749/Aprilteatro'
     },
     {
       label: 'Fabula',
@@ -46,14 +46,14 @@ export const state = () => ({
       year: '019.',
       category: ['Visual identity.', 'Logo design.'],
       image: './images/LOGOFOLIO.jpg',
-      href: '#'
+      href: 'https://www.behance.net/gallery/87348995/Logofolio'
     },
     {
       label: 'Numeri, Lettere, Segni',
       year: '018.',
       category: ['Editorial design.'],
       image: './images/numeri-lettere-segni.jpg',
-      href: '#'
+      href: 'https://www.behance.net/gallery/87531113/Collana-editoriale-Numeri-Lettere-Segni'
     },
     {
       label: 'Poster collection',
@@ -103,8 +103,8 @@ export const state = () => ({
       label: 'E—<br>mail',
       content: [
         {
-          label: 'hello<br>@giova.com',
-          href: 'mailto:hello@giova.com'
+          label: 'pnt@<br>giovannipante.com',
+          href: 'mailto:pnt@giovannipante.com'
         }
       ]
     }
