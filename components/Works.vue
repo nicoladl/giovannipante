@@ -23,7 +23,9 @@
         >
           <Link :item="project" />
         </div>
-        <img :src="project.image" :alt="project.label" class="width100 nodesktop" />
+        <a :href="project.href" target="_blank">
+          <img :src="project.image" :alt="project.label" class="width100 nodesktop" />
+        </a>
       </li>
     </ul>
   </section>
