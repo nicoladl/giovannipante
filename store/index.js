@@ -1,6 +1,6 @@
 export const state = () => ({
   bio:
-    'When i develop a graphic design,<br> I am pursuing the objective of attributing a shape or a configuration — through study, research, a design method — which is the most suitable to all kinds of projects and artifacts. I focus on visual communication for private and public organizations: from brand and corporate design to publishing & print media, visual identities for exhibitions and cultural events.',
+    'The approach for each graphic work derives from research, a design method that is developed on the needs of the individual project. I focus on visual communication for private and public organizations: from brand and corporate design to publishing & print media, visual identities for exhibitions and cultural events.',
   menu: [
     {
       label: '<span>A</span>b<span></span><span>o</span><span>u</span>t m<span>e</span>',
@@ -52,7 +52,7 @@ export const state = () => ({
       label: 'Numeri, Lettere, Segni',
       year: '018.',
       category: ['Editorial design.'],
-      image: './images/poster-collection.jpg',
+      image: './images/numeri-lettere-segni.jpg',
       href: '#'
     },
     {
