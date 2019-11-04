@@ -54,9 +54,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [['@nuxtjs/pwa'], ['@nuxtjs/google-analytics', {
-    id: 'UA-150186332-2'
-  }]],
+  modules: ['@nuxtjs/pwa'],
 
   /*
    ** Build configuration
