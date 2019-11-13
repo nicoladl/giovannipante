@@ -96,6 +96,10 @@ export const state = () => ({
         {
           label: 'Instagram',
           href: 'https://www.instagram.com/giovanni.pante/'
+        },
+        {
+          label: 'Facebook',
+          href: 'https://www.facebook.com/pnt.giovannipante/'
         }
       ]
     },
