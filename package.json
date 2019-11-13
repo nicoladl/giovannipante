@@ -6,7 +6,7 @@
   "author": "Nicola De Lazzari",
   "private": true,
   "scripts": {
-    "dev": "ENV=watch HOST=192.168.101.43 nuxt",
+    "dev": "ENV=watch HOST=192.168.88.232 nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
