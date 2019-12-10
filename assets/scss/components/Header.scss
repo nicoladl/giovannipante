@@ -24,6 +24,14 @@ header {
       position: absolute;
       right: 0;
     }
+
+    img {
+      width: 10vw;
+
+      @include mq($until: desktop) {
+        width: 30vw;
+      }
+    }
   }
 
   .date-time {
