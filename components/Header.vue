@@ -1,10 +1,9 @@
 <template>
   <header>
-    <!-- <h2>
+    <h2>
       P
       <span>A</span>NT
-    </h2> -->
-    <h2><img src="/images/natale.svg" alt="P NT" /></h2>
+    </h2>
 
     <div class="date-time nomobile">
       <div class="date"></div>
