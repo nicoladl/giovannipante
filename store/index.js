@@ -15,7 +15,7 @@ export const state = () => ({
       slug: 'contact'
     },
     {
-      label: '©2019',
+      label: '©2020',
       slug: 'footer'
     }
   ],
