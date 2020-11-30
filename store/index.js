@@ -83,7 +83,7 @@ export const state = () => ({
       content: [
         {
           label: 'Behance',
-          href: 'https://www.behance.net/pntgvnn933c8b'
+          href: 'https://www.behance.net/giovannipante'
         },
         {
           label: 'LinkedIn',
@@ -100,6 +100,24 @@ export const state = () => ({
         {
           label: 'Facebook',
           href: 'https://www.facebook.com/pnt.giovannipante/'
+        }
+      ]
+    },
+    {
+      label: 'CV',
+      content: [
+        {
+          label: 'Download as PDF',
+          href: 'https://drive.google.com/file/d/12yDmt72HdRMQDtpVxekK1v4stB4eXM6G/view?usp=sharing'
+        }
+      ]
+    },
+    {
+      label: 'Portfolio',
+      content: [
+        {
+          label: 'Request a PDF',
+          href: 'mailto:pnt@giovannipante.com?subject=Request a PDF'
         }
       ]
     },

@@ -19,6 +19,26 @@
           </div>
         </div>
       </li>
+      <li v-for="(item, index) in cv" :key="index" class="row">
+        <div class="sidebar nomobile">
+          <div class="text special js-split-text" v-html="item.label"></div>
+        </div>
+        <div class="content content--little">
+          <div v-for="(contact, index2) in item.content" :key="index2" class="social special">
+            <Link :item="contact" />
+          </div>
+        </div>
+      </li>
+      <li v-for="(item, index) in portfolio" :key="index" class="row">
+        <div class="sidebar nomobile">
+          <div class="text special js-split-text" v-html="item.label"></div>
+        </div>
+        <div class="content content--little">
+          <div v-for="(contact, index2) in item.content" :key="index2" class="social special">
+            <Link :item="contact" />
+          </div>
+        </div>
+      </li>
       <li class="row nodesktop">
         <div class="content content--little">
           <div class="social special">
@@ -38,8 +58,13 @@ export default {
     Link
   },
   data(context) {
+    console.log('qui')
+    console.log('ciao')
+    console.log(context.$store.state.contacts.cv)
     return {
       contacts: context.$store.state.contacts,
+      cv: context.$store.state.contacts.cv,
+      portfolio: context.$store.state.contacts.portfolio,
       menu: context.$store.state.menu
     }
   }
