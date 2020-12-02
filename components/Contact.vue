@@ -58,9 +58,6 @@ export default {
     Link
   },
   data(context) {
-    console.log('qui')
-    console.log('ciao')
-    console.log(context.$store.state.contacts.cv)
     return {
       contacts: context.$store.state.contacts,
       cv: context.$store.state.contacts.cv,
