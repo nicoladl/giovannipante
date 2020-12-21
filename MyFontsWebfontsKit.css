@@ -1,0 +1,30 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3824692, 2019-10-16T17:28:29-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: HelveticaNowDisplay-Md by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-medium/
+ * Copyright: Copyright © 2019 Monotype Imaging Inc. All rights reserved.
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3824692
+ * 
+ * © 2019 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3a5c34");
+
+@font-face {
+  font-family: 'HelveticaNowDisplay-Md';
+  src: url('./fonts/3A5C34_1_0.eot');
+  src: url('./fonts/3A5C34_1_0.eot?#iefix') format('embedded-opentype'),url('./fonts/3A5C34_1_0.woff2') format('woff2'),url('./fonts/3A5C34_1_0.woff') format('woff'),url('./fonts/3A5C34_1_0.ttf') format('truetype');
+}
