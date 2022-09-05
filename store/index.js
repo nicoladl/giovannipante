@@ -108,7 +108,7 @@ export const state = () => ({
       content: [
         {
           label: 'Download as PDF',
-          href: 'https://drive.google.com/file/d/1SzqXSEewfUmngy9vEGJiRX9-ihGPnS0x/view?usp=sharing'
+          href: 'https://drive.google.com/file/d/1_H4pmYqK7pzdHDWMU-SPoQyY3VQx8U1i/view?usp=sharing'
         }
       ]
     },
